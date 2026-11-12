@@ -6,7 +6,7 @@
 #'Exploration de la structure des données SALICORNE
 #' ####################################################"
 
-#' 01. Je charge les données nettoyées en csv créées dans 00
+#' 01. Je charge les données nettoyées en csv créées dans 00 qui sont dans data_clean
 ge_dat <- read.csv("data/data_clean/general_data.csv", row.names = 1)
 dat_topo <- read.csv("data/data_clean/raw_data_topo.csv", row.names = 1)
 coord_gps <- read.csv("data/data_clean/coord_gps.csv", row.names = 1)
